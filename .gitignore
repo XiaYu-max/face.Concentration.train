@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+__pycache__/
+data/
+dlib/
+model/
+model_net1.pk1
