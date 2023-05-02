@@ -1,6 +1,17 @@
 # 用於人臉專注度的訓練模型
 ## 摘要
   本篇為訓練人臉表情是否上課專心模型的研究，此連結只有訓練模型，另有一篇是為寫成RPC連線的專案用於介面呈現。
+## 實做軟體
+  * Anaconda
+  ```Python
+    python 3.6
+    pip install cmake
+    pip install dlib # 此為cpu版，gpu版參考官方或網路上資源
+    pip install pandas
+    pip install opencv-python
+  ```
+  安裝torch(請參照torch官方下載)，安裝cuda(參照自己顯卡版本安裝cuda的驅動)，研究以cuda 11.7版本。
+  上述為較重要的py套件，如有遺漏py套件，可直接查詢安裝。
 ## 檔案說明 (部分檔案沒上傳，ex: data檔案大太，因此沒上傳;詳情可見.gitnore)
   * main.py 
     main.py是主要執行資料預處理，訓練、預測、攝像頭即時檢測，參數可參考程式碼
