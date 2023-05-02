@@ -1,1 +1,1 @@
-# face.Concentration.train
+# 用於人臉專注度的訓練模型
